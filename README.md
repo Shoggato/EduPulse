@@ -1,108 +1,36 @@
-# pandas-challenge
+## Project Title: EduPulse - Navigating Academic Horizons
 
-# Project Description
-You are the new Chief Data Scientist for your city's school district. In this capacity, you'll be helping the school board and mayor make strategic decisions regarding future school budgets and priorities.
+## Overview
+EduPulse is an insightful journey into the academic landscape of PyCity Schools. Unveiling Patterns in Academic Performance, this data analysis project explores the nuances of school types, budgets, sizes, and student outcomes in mathematics and reading.
 
-As a first task, you've been asked to analyze the district-wide standardized test results. You'll be given access to every student's math and reading scores, as well as various information on the schools they attend. Your task is to aggregate the data to showcase obvious trends in school performance.
+## Analysis Highlights
+* __School Symphony__: Harmonizing the diverse melodies of District and Charter schools, revealing the dynamic interplay of governance and academic achievement.
+* __Budget Alchemy__: Unraveling the alchemy of budget allocation, challenging preconceptions and transforming fiscal resources into educational gold.
+* __Size Symphony__: Conducting an orchestra of school sizes, deciphering the melodies of success hidden within the ensemble of student populations.
 
-# Data Source
-schools_complete.csv, students_complete.csv
+## Key Findings
+* __Charter Crescendo__: Witness the crescendo of Charter schools, outshining their District counterparts in a harmonious blend of excellence.
+* __Budget Ballet__: Challenge the ballet of budget and performance, as EduPulse discovers the delicate dance that transcends the mere act of spending.
+* __Size Serenade__: Listen to the serenade of school sizes, where smaller and medium-sized institutions produce the sweetest academic notes.
 
-# Instructions
+## Recommendations
+* __OptiStratEdu__: Strategically optimize school budgets with the precision of a musical composition, blending financial instruments for an orchestrated success.
+* __SizeSculpt__: Sculpt the educational landscape by managing school sizes like an artisan, crafting an environment conducive to academic brilliance.
+* __EduHarmony__: Achieve academic harmony through continuous monitoring and fine-tuning, ensuring a symphony of success for PyCity Schools.
 
-Using Pandas and Jupyter Notebook, create a report that includes the following data. Your report must include a written description of at least two observable trends based on the data.
+## Repository Contents
+1) `Resources/`: Contains the raw data files (schools_complete.csv, students_complete.csv) as the starting notes of this educational symphony.
+2) `PyCity_Schools_Analysis.ipynb`: Navigate the score of the analysis, meticulously composed in a Jupyter Notebook.
+3) `README.md`: Immerse yourself in the prelude of EduPulse, offering an overview, highlights, findings, recommendations, and a treasure trove of insights.
 
-District Summary:
+## Usage
+1) Ensure you have the required dependencies installed (`pandas`).
+2) Feel the rhythm by running the `PyCity_Schools_Analysis.ipynb` Jupyter Notebook to recreate the harmonious analysis.
 
--Perform the necessary calculations and then create a high-level snapshot of the district's key metrics in a DataFrame.
+## Dependencies
+* Python 3.x
+* Jupyter Notebook
+* Pandas library
 
--Include the following:
-
--Total number of unique schools
-
--Total students
-
--Total budget
-
--Average math score
-
--Average reading score
-
--% passing math (the percentage of students who passed math)
-
--% passing reading (the percentage of students who passed reading)
-
--% overall passing (the percentage of students who passed math AND reading)
-
-School Summary:
-
-Perform the necessary calculations and then create a DataFrame that summarizes key metrics about each school.
-
-Include the following:
-
--School name
-
--School type
-
--Total students
-
--Total school budget
-
--Per student budget
-
--Average math score
-
--Average reading score
-
--% passing math (the percentage of students who passed math)
-
--% passing reading (the percentage of students who passed reading)
-
--% overall passing (the percentage of students who passed math AND reading)
-
-Highest-Performing Schools (by % Overall Passing):
-
-Sort the schools by % Overall Passing in descending order and display the top 5 rows.
-
-Save the results in a DataFrame called "top_schools".
-
-Lowest-Performing Schools (by % Overall Passing):
-
-Sort the schools by % Overall Passing in ascending order and display the top 5 rows.
-
-Save the results in a DataFrame called "bottom_schools".
-
-Math Scores by Grade:
-
-Perform the necessary calculations to create a DataFrame that lists the average math score for students of each grade level (9th, 10th, 11th, 12th) at each school.
-
-Reading Scores by Grade:
-
-Create a DataFrame that lists the average reading score for students of each grade level (9th, 10th, 11th, 12th) at each school.
-
-Scores by School Spending:
-
-Create a table that breaks down school performance based on average spending ranges (per student).
-
-Use the code provided below to create four bins with reasonable cutoff values to group school spending.
-
-Include the following metrics in the table:
-
--Average math score
-
--Average reading score
-
--% passing math (the percentage of students who passed math)
-
--% passing reading (the percentage of students who passed reading)
-
--% overall passing (the percentage of students who passed math AND reading)
-
-Scores by School Size:
-
-Create a DataFrame called size_summary that breaks down school performance based on school size (small, medium, or large).
-
-Scores by School Type:
-
-This new DataFrame should show school performance based on the "School Type".
-
+## Contributor
+Erika Walker
